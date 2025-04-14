@@ -3,15 +3,16 @@ import withLayoutBasic from "@/libs/components/layout/LayoutBasic";
  import { NextPage } from "next";
  import { useState } from "react";
  
- const Community: NextPage = () => {
-   console.log("Community page");
+ const AgentList: NextPage = () => {
+   console.log("AgentList page");
  
    const [title, setTitle] = useState("hello");
  
    return (
      <div style={{ margin: "20px 0" }}>
-       <Stack className="container">COMMUNITY</Stack>
+       <Stack className="container">Agents List</Stack>
      </div>
    );
  };
- export default withLayoutBasic(Community);
+ 
+ export default withLayoutBasic(AgentList);

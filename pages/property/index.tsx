@@ -1,3 +1,4 @@
+import withLayoutBasic from "@/libs/components/layout/LayoutBasic";
 import { Stack } from "@mui/material";
 
 console.log("PropertyList page");
@@ -10,5 +11,5 @@ const PropertyList = () => {
   );
 };
 
-export default PropertyList;
+export default withLayoutBasic(PropertyList);
 
