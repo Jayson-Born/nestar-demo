@@ -3,7 +3,7 @@ import { Stack } from "@mui/material";
  import Top from "../Top";
  import Footer from "../Footer";
  import HeaderFilter from "../homepage/HeaderFilter";
-import React from "react";
+
  
  const withLayoutMain = (Component: any) => {
    return (props: any) => {

@@ -1,15 +1,14 @@
-import withLayoutBasic from "@/libs/components/layouts/LayoutBasics";
- import { Box, Container, Stack } from "@mui/material";
- import { NextPage } from "next";
- 
- const PropertyList: NextPage = () => {
-   console.log("PropertyList page");
- 
-   return (
-     <>
-       <Container>Property List</Container>
-     </>
-   );
- };
- 
- export default withLayoutBasic(PropertyList);
+import { Stack } from "@mui/material";
+
+console.log("PropertyList page");
+
+const PropertyList = () => {
+  return (
+    <div style={{ margin: "20px 0" }}>
+      <Stack className="container">Property List</Stack>
+    </div>
+  );
+};
+
+export default PropertyList;
+
