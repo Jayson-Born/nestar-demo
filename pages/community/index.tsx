@@ -14,6 +14,7 @@ const Community: NextPage = () => {
       <div style={{ marginTop: "20px 0" }}>
         <Stack className={"container"}>COMMUNITY</Stack>
       </div>
+      
     );
   }
 };

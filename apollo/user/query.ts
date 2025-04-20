@@ -1,6 +1,6 @@
 import { gql } from "@apollo/client";
  
- // Property
+    /** Property **/  
  export const GET_PROPERTIES = gql`
    query GetProperties($input: PropertiesInquiry!) {
      getProperties(input: $input) {

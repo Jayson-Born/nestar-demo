@@ -10,6 +10,7 @@ const AgentsList: NextPage = () => {
     return <Stack>AGENTS MOBILE</Stack>;
   } else {
     return (
+      
       <div style={{ marginTop: "20px 0" }}>
         <Stack className={"container"}>AGENTS LIST</Stack>
       </div>
